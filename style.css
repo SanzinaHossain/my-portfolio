@@ -13,18 +13,31 @@ section{
 }
 .half-width{
     width:50%;
-    padding-left:50px;
+    padding-left:30px;
+    padding-top:30px;
 }
 .half-width-img{
     width:50%;
     align-items: center;
     padding-left:100px;
 }
+.half-width-imgg{
+    width:50%;
+    align-items: center;
+    padding-top:70px;
+    padding-bottom:50px;
+    padding-right:120px;
+}
 #a{
    width:465px;
    clip-path: circle();
 
 }
+#b{
+    width:800px;
+    clip-path: circle();
+ 
+ }
 .link-button{
     text-decoration: none;
     background-image:linear-gradient(orange,tomato);
@@ -35,5 +48,12 @@ section{
 }
 .bo{
     background-image: url(back.jpg);
-   
+    background-repeat:round;
+}
+.half-width-second{
+    width:50%;
+    padding-right:30px;
+    padding-left:10px;
+    margin-top:100px;
+
 }
